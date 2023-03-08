@@ -2,7 +2,7 @@ import Tilt from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { github } from '../assets'
-// import { AiFillEye, } from 'react-icons/ai';
+import { AiFillEye, } from 'react-icons/ai';
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
@@ -34,7 +34,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               className='black-gradient w-10 h-10 rounded-full flex justify-center
               items-center cursor-pointer'>
 
-              {/* <AiFillEye className='w-1/2 h-1/2 object-contain ' /> */}
+              <AiFillEye className='w-1/2 h-1/2 object-contain ' />
 
             </div>
           </div>
